@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local config
+.env
+
+# C++ build output
+cpp/resource_planner/build/
+*.exe
+*.o
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

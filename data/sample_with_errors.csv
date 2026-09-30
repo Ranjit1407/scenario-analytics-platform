@@ -1,0 +1,9 @@
+run_id,scenario_id,scenario_name,category,start_time,end_time,status,records_processed,error_message
+ERR-0001,SCN-001,Blade transport - port to site,logistics,2026-09-22T08:00:00Z,2026-09-22T08:41:10Z,SUCCESS,4980,
+ERR-0002,SCN-001,Blade transport - port to site,logistics,2026-09-22T10:00:00Z,2026-09-22T09:30:00Z,SUCCESS,5100,
+ERR-0003,SCN-003,Offshore vessel weather window,installation,not-a-date,2026-09-22T11:00:00Z,SUCCESS,300,
+ERR-0004,SCN-003,Offshore vessel weather window,installation,2026-09-22T12:00:00Z,2026-09-22T13:02:00Z,DONE,5200,
+ERR-0005,,Missing scenario,logistics,2026-09-22T14:00:00Z,2026-09-22T14:20:00Z,FAILED,100,Solver did not converge within iteration limit
+ERR-0006,SCN-004,Lifting yoke fleet utilisation,equipment,2026-09-22T15:00:00Z,2026-09-22T15:12:00Z,SUCCESS,-40,
+ERR-0001,SCN-001,Blade transport - port to site,logistics,2026-09-22T16:00:00Z,2026-09-22T16:40:00Z,SUCCESS,4800,
+ERR-0008,SCN-002,Crane allocation - onshore installation,installation,2026-09-22T17:00:00Z,2026-09-22T17:19:30Z,FAILED,2100,Constraint violation: crane capacity exceeded

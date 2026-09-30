@@ -1,0 +1,13 @@
+task_id,volume,rate_per_hour
+# Blade finishing work package for one delivery batch.
+# volume = units of work, rate_per_hour = units one crew completes per hour.
+BLADE-INSPECTION,48,2.0
+ROOT-BOLT-TORQUE,320,40
+LEADING-EDGE-REPAIR,12,0.5
+YOKE-CALIBRATION,6,1.5
+TRANSPORT-PREP,30,2.5
+SURFACE-COATING,18,1.2
+QUALITY-DOCS,60,10
+LIFTING-TEST,8,0.8
+PACKAGING,24,3
+LOAD-OUT,16,2
